@@ -8,6 +8,7 @@ Content-Type: application/json
   "name": "Adam Richard",
   "gender": "male"
 }
+
 ###
 
 //API 2
@@ -42,12 +43,12 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZ
 ###
 
 //API 7
-GET http://localhost:3000/tweets/4/likes/
+GET http://localhost:3000/tweets/1/likes/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjczMzcyNzYwfQ.3ulrA9Ot9gMzao_GCNa1gfwukBEE_J4QieKrpeHF4cI
 ###
 
 //API 8
-GET http://localhost:3000/tweets/4/replies/
+GET http://localhost:3000/tweets/1/replies/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjczMzcyNzYwfQ.3ulrA9Ot9gMzao_GCNa1gfwukBEE_J4QieKrpeHF4cI
 ###
 
@@ -70,6 +71,6 @@ Content-Type: application/json
 ###
 
 //API 11
-DELETE http://localhost:3000/tweets/12/
+DELETE http://localhost:3000/tweets/1/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjczMzcyNzYwfQ.3ulrA9Ot9gMzao_GCNa1gfwukBEE_J4QieKrpeHF4cI
 ###
